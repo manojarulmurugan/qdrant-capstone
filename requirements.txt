@@ -1,0 +1,11 @@
+# torch 2.2.2 is the last release with macOS x86_64 wheels, which caps this
+# project at Python 3.11 and numpy 1.x on an Intel Mac.
+torch==2.2.2
+numpy==1.26.4
+
+sentence-transformers==3.0.1
+transformers==4.44.2
+huggingface-hub==0.24.6
+
+scikit-learn==1.5.2
+qdrant-client==1.19.0
