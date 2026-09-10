@@ -49,7 +49,10 @@ def create_collection(client, name, distance, hnsw_config=None):
             # force an HNSW build: our ~9 MB of vectors is under the 20 MB
             # default threshold, so otherwise Qdrant just serves brute force
             indexing_threshold=1,
-            # one segment = one graph, so only m/ef_construct differ
+            # keep the vectors in one indexed segment instead of one per CPU
+            # core, so m/ef_construct are the only difference between the two
+            # cosine collections. Qdrant still reports 2 segments because it
+            # keeps a small appendable one alongside for new writes.
             default_segment_number=1,
         ),
     )

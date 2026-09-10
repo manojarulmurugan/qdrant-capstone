@@ -1,9 +1,6 @@
 # Qdrant search algorithm comparison
 
-Semantic search over 6,000 posts from the 20 Newsgroups corpus, run through
-three distance metrics, two HNSW configurations at three search-time `ef`
-values, and a hand-written IVF index at two `nprobe` values, so the accuracy
-and latency tradeoffs can be measured rather than assumed.
+Semantic search over 6,000 posts from the 20 Newsgroups corpus, run through three distance metrics, two HNSW configurations at three search-time `ef` values, and a hand-written IVF index at two `nprobe` values, so the accuracy and latency tradeoffs can be measured rather than assumed.
 
 Findings are in [comparison.md](comparison.md); the raw numbers are in `results/`.
 
@@ -13,9 +10,7 @@ Findings are in [comparison.md](comparison.md); the raw numbers are in `results/
 docker compose up -d
 ```
 
-That publishes the REST API and dashboard on 6333 and gRPC on 6334, and mounts
-`./qdrant_storage` so collections survive a restart. Confirm it is up at
-<http://localhost:6333/dashboard>.
+That publishes the REST API and dashboard on 6333 and gRPC on 6334, and mounts `./qdrant_storage` so collections survive a restart. Confirm it is up at <http://localhost:6333/dashboard>.
 
 The equivalent single command, without Compose:
 
@@ -25,8 +20,7 @@ docker run -p 6333:6333 -p 6334:6334 -v "$(pwd)/qdrant_storage:/qdrant/storage" 
 
 ## Set up Python
 
-Python 3.11 specifically: this was built on an Intel Mac, where the last
-PyTorch release with x86_64 wheels is 2.2.2, which supports up to 3.12.
+Python 3.11 specifically: this was built on an Intel Mac, where the last PyTorch release with x86_64 wheels is 2.2.2, which supports up to 3.12.
 
 ```bash
 python3.11 -m venv .venv
@@ -43,8 +37,7 @@ python qdrant_setup.py  # create and fill the four collections
 python compare.py       # run every method, write results/*.json
 ```
 
-`data.py` and `embed.py` only need to run once; their output is cached in
-`artifacts/`, which is gitignored because it is reproducible from the scripts.
+`data.py` and `embed.py` only need to run once; their output is cached in `artifacts/`, which is gitignored because it is reproducible from the scripts.
 
 For the live demo, run every method against a single query and print as it goes:
 
@@ -52,8 +45,7 @@ For the live demo, run every method against a single query and print as it goes:
 python compare.py --demo 0
 ```
 
-`ivf.py` is also runnable on its own, which prints the cluster size
-distribution and the effect of `nprobe` without touching Qdrant:
+`ivf.py` is also runnable on its own, which prints the cluster size distribution and the effect of `nprobe` without touching Qdrant:
 
 ```bash
 python ivf.py
@@ -81,10 +73,7 @@ $ curl -s -o /dev/null -w "%{http_code}\n" http://localhost:6333/dashboard
 200
 ```
 
-The dashboard at <http://localhost:6333/dashboard> was confirmed loading and
-listing all four collections, each GREEN with 6,000 points and 384-dimensional
-vectors: `news_cosine` (Cosine), `news_cosine_weak` (Cosine), `news_dot` (Dot)
-and `news_euclid` (Euclid).
+The dashboard at <http://localhost:6333/dashboard> was confirmed loading and listing all four collections, each GREEN with 6,000 points and 384-dimensional vectors: `news_cosine` (Cosine), `news_cosine_weak` (Cosine), `news_dot` (Dot) and `news_euclid` (Euclid).
 
 After `python qdrant_setup.py`, the same can be checked from the command line:
 

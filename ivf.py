@@ -73,7 +73,6 @@ def build_ivf_index(vectors, n_clusters=N_CLUSTERS, seed=SEED):
         member_ids = np.flatnonzero(mask)  # the positions where mask is True
         postings.append(member_ids)
 
-
     return IVFIndex(centroids, postings, normalised)
 
 

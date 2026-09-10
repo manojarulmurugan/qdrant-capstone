@@ -1,8 +1,6 @@
 # Test queries
 
-Five natural-language queries, none of which quote any document verbatim. Each
-one is aimed at a different newsgroup so that a correct result is easy to eyeball
-from the `category` payload.
+Five natural-language queries, none of which quote any document verbatim. Each one is aimed at a different newsgroup so that a correct result is easy to eyeball from the `category` payload.
 
 | # | Query | Categories I expect to see |
 |---|-------|----------------------------|
@@ -12,6 +10,4 @@ from the `category` payload.
 | 4 | government encryption policy and the clipper chip | `sci.crypt`, `talk.politics.misc` |
 | 5 | treatment options for chronic back pain | `sci.med` |
 
-The literal strings live in `TEST_QUERIES` in `embed.py`, so the file that
-embeds them is the single source of truth and this table cannot drift out of
-sync silently.
+The literal strings live in `TEST_QUERIES` in `embed.py`, so the file that embeds them is the single source of truth and this table cannot drift out of sync silently.

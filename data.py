@@ -1,4 +1,3 @@
-
 import json
 from collections import Counter
 from pathlib import Path
@@ -9,7 +8,7 @@ ARTIFACTS = Path(__file__).resolve().parent / "artifacts"
 DOCUMENTS = ARTIFACTS / "documents.json"
 
 SAMPLE_SIZE = 6000
-MIN_CHARS = 200
+MIN_CHARS = 200 #my choice
 SEED = 42
 
 
