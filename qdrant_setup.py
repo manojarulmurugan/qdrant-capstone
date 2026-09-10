@@ -15,10 +15,22 @@ METRIC_COLLECTIONS = {
     "news_dot": models.Distance.DOT,
 }
 
+# Qdrant's query planner only walks the HNSW graph once a segment holds more
+# than full_scan_threshold KB of vectors; below that it brute forces the segment
+# because at that size a scan is genuinely faster. The default is 10000 KB and
+# these 6000 384-dimensional float32 vectors come to 9000 KB, so at the default
+# the graph is built and then never used, and every HNSW config scores an
+# identical 100% against exact search. 10 KB is the lowest Qdrant accepts and is
+# far below 9000 KB, so the graph becomes load bearing for every query.
+FULL_SCAN_THRESHOLD = 10
+
 # Part 3: same data and metric as news_cosine, only the HNSW params differ
 # (defaults are m=16, ef_construct=100).
+DEFAULT_HNSW = models.HnswConfigDiff(full_scan_threshold=FULL_SCAN_THRESHOLD)
 WEAK_COLLECTION = "news_cosine_weak"
-WEAK_HNSW = models.HnswConfigDiff(m=4, ef_construct=8)
+WEAK_HNSW = models.HnswConfigDiff(
+    m=4, ef_construct=8, full_scan_threshold=FULL_SCAN_THRESHOLD
+)
 
 
 def connect(url=QDRANT_URL):
@@ -75,14 +87,14 @@ def main():
 
     plan = []
     for name, distance in METRIC_COLLECTIONS.items():
-        plan.append((name, distance, None))
+        plan.append((name, distance, DEFAULT_HNSW))
     plan.append((WEAK_COLLECTION, models.Distance.COSINE, WEAK_HNSW))
 
     for name, distance, hnsw_config in plan:
         create_collection(client, name, distance, hnsw_config)
         upload(client, name, documents, doc_vectors)
         info = wait_until_indexed(client, name)
-        label = "m=4 ef_construct=8" if hnsw_config else "default hnsw"
+        label = "m=4 ef_construct=8" if hnsw_config is WEAK_HNSW else "m=16 ef_construct=100"
         print(f"{name:20} {distance.value:8} {info.indexed_vectors_count:5d} indexed  ({label})")
 
 
