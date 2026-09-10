@@ -1,0 +1,56 @@
+[
+  {
+    "config": "ivf-nprobe8",
+    "mean_overlap": 1.0,
+    "mean_latency_ms": 0.426,
+    "queries": 5
+  },
+  {
+    "config": "hnsw-default-ef64",
+    "mean_overlap": 1.0,
+    "mean_latency_ms": 9.309,
+    "queries": 5
+  },
+  {
+    "config": "hnsw-default-ef128",
+    "mean_overlap": 1.0,
+    "mean_latency_ms": 10.813,
+    "queries": 5
+  },
+  {
+    "config": "exact",
+    "mean_overlap": 1.0,
+    "mean_latency_ms": 13.166,
+    "queries": 5
+  },
+  {
+    "config": "hnsw-default-ef16",
+    "mean_overlap": 0.96,
+    "mean_latency_ms": 10.581,
+    "queries": 5
+  },
+  {
+    "config": "ivf-nprobe1",
+    "mean_overlap": 0.84,
+    "mean_latency_ms": 0.146,
+    "queries": 5
+  },
+  {
+    "config": "hnsw-weak-ef128",
+    "mean_overlap": 0.8,
+    "mean_latency_ms": 8.751,
+    "queries": 5
+  },
+  {
+    "config": "hnsw-weak-ef64",
+    "mean_overlap": 0.76,
+    "mean_latency_ms": 9.042,
+    "queries": 5
+  },
+  {
+    "config": "hnsw-weak-ef16",
+    "mean_overlap": 0.72,
+    "mean_latency_ms": 9.238,
+    "queries": 5
+  }
+]

@@ -1,0 +1,1612 @@
+[
+  {
+    "query_index": 0,
+    "query": "a question about a graphics card driver",
+    "config": "exact",
+    "collection": "news_cosine",
+    "ef": null,
+    "overlap": 1.0,
+    "latency_ms": 17.723,
+    "results": [
+      {
+        "rank": 1,
+        "id": 5379,
+        "score": 0.48239,
+        "category": "misc.forsale",
+        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+      },
+      {
+        "rank": 2,
+        "id": 2238,
+        "score": 0.43872,
+        "category": "comp.sys.ibm.pc.hardware",
+        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+      },
+      {
+        "rank": 3,
+        "id": 5397,
+        "score": 0.43741,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
+        "rank": 4,
+        "id": 4924,
+        "score": 0.43109,
+        "category": "comp.graphics",
+        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
+      },
+      {
+        "rank": 5,
+        "id": 654,
+        "score": 0.41584,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+      }
+    ]
+  },
+  {
+    "query_index": 0,
+    "query": "a question about a graphics card driver",
+    "config": "hnsw-default-ef16",
+    "collection": "news_cosine",
+    "ef": 16,
+    "overlap": 1.0,
+    "latency_ms": 10.806,
+    "results": [
+      {
+        "rank": 1,
+        "id": 5379,
+        "score": 0.48239,
+        "category": "misc.forsale",
+        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+      },
+      {
+        "rank": 2,
+        "id": 2238,
+        "score": 0.43872,
+        "category": "comp.sys.ibm.pc.hardware",
+        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+      },
+      {
+        "rank": 3,
+        "id": 5397,
+        "score": 0.43741,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
+        "rank": 4,
+        "id": 4924,
+        "score": 0.43109,
+        "category": "comp.graphics",
+        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
+      },
+      {
+        "rank": 5,
+        "id": 654,
+        "score": 0.41584,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+      }
+    ]
+  },
+  {
+    "query_index": 0,
+    "query": "a question about a graphics card driver",
+    "config": "hnsw-default-ef64",
+    "collection": "news_cosine",
+    "ef": 64,
+    "overlap": 1.0,
+    "latency_ms": 6.357,
+    "results": [
+      {
+        "rank": 1,
+        "id": 5379,
+        "score": 0.48239,
+        "category": "misc.forsale",
+        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+      },
+      {
+        "rank": 2,
+        "id": 2238,
+        "score": 0.43872,
+        "category": "comp.sys.ibm.pc.hardware",
+        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+      },
+      {
+        "rank": 3,
+        "id": 5397,
+        "score": 0.43741,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
+        "rank": 4,
+        "id": 4924,
+        "score": 0.43109,
+        "category": "comp.graphics",
+        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
+      },
+      {
+        "rank": 5,
+        "id": 654,
+        "score": 0.41584,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+      }
+    ]
+  },
+  {
+    "query_index": 0,
+    "query": "a question about a graphics card driver",
+    "config": "hnsw-default-ef128",
+    "collection": "news_cosine",
+    "ef": 128,
+    "overlap": 1.0,
+    "latency_ms": 7.479,
+    "results": [
+      {
+        "rank": 1,
+        "id": 5379,
+        "score": 0.48239,
+        "category": "misc.forsale",
+        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+      },
+      {
+        "rank": 2,
+        "id": 2238,
+        "score": 0.43872,
+        "category": "comp.sys.ibm.pc.hardware",
+        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+      },
+      {
+        "rank": 3,
+        "id": 5397,
+        "score": 0.43741,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
+        "rank": 4,
+        "id": 4924,
+        "score": 0.43109,
+        "category": "comp.graphics",
+        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
+      },
+      {
+        "rank": 5,
+        "id": 654,
+        "score": 0.41584,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+      }
+    ]
+  },
+  {
+    "query_index": 0,
+    "query": "a question about a graphics card driver",
+    "config": "hnsw-weak-ef16",
+    "collection": "news_cosine_weak",
+    "ef": 16,
+    "overlap": 0.8,
+    "latency_ms": 7.097,
+    "results": [
+      {
+        "rank": 1,
+        "id": 2238,
+        "score": 0.43872,
+        "category": "comp.sys.ibm.pc.hardware",
+        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+      },
+      {
+        "rank": 2,
+        "id": 5397,
+        "score": 0.43741,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
+        "rank": 3,
+        "id": 4924,
+        "score": 0.43109,
+        "category": "comp.graphics",
+        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
+      },
+      {
+        "rank": 4,
+        "id": 654,
+        "score": 0.41584,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+      },
+      {
+        "rank": 5,
+        "id": 4863,
+        "score": 0.4095,
+        "category": "comp.sys.ibm.pc.hardware",
+        "snippet": "Hi there. We just bought a 486 DX2/66 Gateway system with a 2 meg ATI Ultra Pro video card. Everything seems t"
+      }
+    ]
+  },
+  {
+    "query_index": 0,
+    "query": "a question about a graphics card driver",
+    "config": "hnsw-weak-ef64",
+    "collection": "news_cosine_weak",
+    "ef": 64,
+    "overlap": 0.8,
+    "latency_ms": 5.953,
+    "results": [
+      {
+        "rank": 1,
+        "id": 2238,
+        "score": 0.43872,
+        "category": "comp.sys.ibm.pc.hardware",
+        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+      },
+      {
+        "rank": 2,
+        "id": 5397,
+        "score": 0.43741,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
+        "rank": 3,
+        "id": 4924,
+        "score": 0.43109,
+        "category": "comp.graphics",
+        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
+      },
+      {
+        "rank": 4,
+        "id": 654,
+        "score": 0.41584,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+      },
+      {
+        "rank": 5,
+        "id": 4863,
+        "score": 0.4095,
+        "category": "comp.sys.ibm.pc.hardware",
+        "snippet": "Hi there. We just bought a 486 DX2/66 Gateway system with a 2 meg ATI Ultra Pro video card. Everything seems t"
+      }
+    ]
+  },
+  {
+    "query_index": 0,
+    "query": "a question about a graphics card driver",
+    "config": "hnsw-weak-ef128",
+    "collection": "news_cosine_weak",
+    "ef": 128,
+    "overlap": 1.0,
+    "latency_ms": 8.425,
+    "results": [
+      {
+        "rank": 1,
+        "id": 5379,
+        "score": 0.48239,
+        "category": "misc.forsale",
+        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+      },
+      {
+        "rank": 2,
+        "id": 2238,
+        "score": 0.43872,
+        "category": "comp.sys.ibm.pc.hardware",
+        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+      },
+      {
+        "rank": 3,
+        "id": 5397,
+        "score": 0.43741,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
+        "rank": 4,
+        "id": 4924,
+        "score": 0.43109,
+        "category": "comp.graphics",
+        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
+      },
+      {
+        "rank": 5,
+        "id": 654,
+        "score": 0.41584,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+      }
+    ]
+  },
+  {
+    "query_index": 1,
+    "query": "what does the Bible say about the resurrection",
+    "config": "exact",
+    "collection": "news_cosine",
+    "ef": null,
+    "overlap": 1.0,
+    "latency_ms": 7.904,
+    "results": [
+      {
+        "rank": 1,
+        "id": 515,
+        "score": 0.61798,
+        "category": "soc.religion.christian",
+        "snippet": "Here again, the problem with most of the individuals posting here, you take the biblical account as though it "
+      },
+      {
+        "rank": 2,
+        "id": 2351,
+        "score": 0.58659,
+        "category": "soc.religion.christian",
+        "snippet": "[ ACT 5:40 - 41 ] ... ... The basic problem with your argument is your total and complete reliance on the bibl"
+      },
+      {
+        "rank": 3,
+        "id": 2162,
+        "score": 0.5822,
+        "category": "soc.religion.christian",
+        "snippet": "Now this is getting interesting! I was raised Roman Catholic before becoming an atheist, so I have stated this"
+      },
+      {
+        "rank": 4,
+        "id": 3943,
+        "score": 0.56815,
+        "category": "soc.religion.christian",
+        "snippet": "Here is another way of looking at it. When we die we are released from the arc of time, and able to comprehend"
+      },
+      {
+        "rank": 5,
+        "id": 4923,
+        "score": 0.5568,
+        "category": "soc.religion.christian",
+        "snippet": "I have a few minor problems with the article posted as proof of Christ's resurrection. First the scriptural qu"
+      }
+    ]
+  },
+  {
+    "query_index": 1,
+    "query": "what does the Bible say about the resurrection",
+    "config": "hnsw-default-ef16",
+    "collection": "news_cosine",
+    "ef": 16,
+    "overlap": 1.0,
+    "latency_ms": 11.617,
+    "results": [
+      {
+        "rank": 1,
+        "id": 515,
+        "score": 0.61798,
+        "category": "soc.religion.christian",
+        "snippet": "Here again, the problem with most of the individuals posting here, you take the biblical account as though it "
+      },
+      {
+        "rank": 2,
+        "id": 2351,
+        "score": 0.58659,
+        "category": "soc.religion.christian",
+        "snippet": "[ ACT 5:40 - 41 ] ... ... The basic problem with your argument is your total and complete reliance on the bibl"
+      },
+      {
+        "rank": 3,
+        "id": 2162,
+        "score": 0.5822,
+        "category": "soc.religion.christian",
+        "snippet": "Now this is getting interesting! I was raised Roman Catholic before becoming an atheist, so I have stated this"
+      },
+      {
+        "rank": 4,
+        "id": 3943,
+        "score": 0.56815,
+        "category": "soc.religion.christian",
+        "snippet": "Here is another way of looking at it. When we die we are released from the arc of time, and able to comprehend"
+      },
+      {
+        "rank": 5,
+        "id": 4923,
+        "score": 0.5568,
+        "category": "soc.religion.christian",
+        "snippet": "I have a few minor problems with the article posted as proof of Christ's resurrection. First the scriptural qu"
+      }
+    ]
+  },
+  {
+    "query_index": 1,
+    "query": "what does the Bible say about the resurrection",
+    "config": "hnsw-default-ef64",
+    "collection": "news_cosine",
+    "ef": 64,
+    "overlap": 1.0,
+    "latency_ms": 9.217,
+    "results": [
+      {
+        "rank": 1,
+        "id": 515,
+        "score": 0.61798,
+        "category": "soc.religion.christian",
+        "snippet": "Here again, the problem with most of the individuals posting here, you take the biblical account as though it "
+      },
+      {
+        "rank": 2,
+        "id": 2351,
+        "score": 0.58659,
+        "category": "soc.religion.christian",
+        "snippet": "[ ACT 5:40 - 41 ] ... ... The basic problem with your argument is your total and complete reliance on the bibl"
+      },
+      {
+        "rank": 3,
+        "id": 2162,
+        "score": 0.5822,
+        "category": "soc.religion.christian",
+        "snippet": "Now this is getting interesting! I was raised Roman Catholic before becoming an atheist, so I have stated this"
+      },
+      {
+        "rank": 4,
+        "id": 3943,
+        "score": 0.56815,
+        "category": "soc.religion.christian",
+        "snippet": "Here is another way of looking at it. When we die we are released from the arc of time, and able to comprehend"
+      },
+      {
+        "rank": 5,
+        "id": 4923,
+        "score": 0.5568,
+        "category": "soc.religion.christian",
+        "snippet": "I have a few minor problems with the article posted as proof of Christ's resurrection. First the scriptural qu"
+      }
+    ]
+  },
+  {
+    "query_index": 1,
+    "query": "what does the Bible say about the resurrection",
+    "config": "hnsw-default-ef128",
+    "collection": "news_cosine",
+    "ef": 128,
+    "overlap": 1.0,
+    "latency_ms": 9.612,
+    "results": [
+      {
+        "rank": 1,
+        "id": 515,
+        "score": 0.61798,
+        "category": "soc.religion.christian",
+        "snippet": "Here again, the problem with most of the individuals posting here, you take the biblical account as though it "
+      },
+      {
+        "rank": 2,
+        "id": 2351,
+        "score": 0.58659,
+        "category": "soc.religion.christian",
+        "snippet": "[ ACT 5:40 - 41 ] ... ... The basic problem with your argument is your total and complete reliance on the bibl"
+      },
+      {
+        "rank": 3,
+        "id": 2162,
+        "score": 0.5822,
+        "category": "soc.religion.christian",
+        "snippet": "Now this is getting interesting! I was raised Roman Catholic before becoming an atheist, so I have stated this"
+      },
+      {
+        "rank": 4,
+        "id": 3943,
+        "score": 0.56815,
+        "category": "soc.religion.christian",
+        "snippet": "Here is another way of looking at it. When we die we are released from the arc of time, and able to comprehend"
+      },
+      {
+        "rank": 5,
+        "id": 4923,
+        "score": 0.5568,
+        "category": "soc.religion.christian",
+        "snippet": "I have a few minor problems with the article posted as proof of Christ's resurrection. First the scriptural qu"
+      }
+    ]
+  },
+  {
+    "query_index": 1,
+    "query": "what does the Bible say about the resurrection",
+    "config": "hnsw-weak-ef16",
+    "collection": "news_cosine_weak",
+    "ef": 16,
+    "overlap": 0.8,
+    "latency_ms": 9.318,
+    "results": [
+      {
+        "rank": 1,
+        "id": 515,
+        "score": 0.61798,
+        "category": "soc.religion.christian",
+        "snippet": "Here again, the problem with most of the individuals posting here, you take the biblical account as though it "
+      },
+      {
+        "rank": 2,
+        "id": 2351,
+        "score": 0.58659,
+        "category": "soc.religion.christian",
+        "snippet": "[ ACT 5:40 - 41 ] ... ... The basic problem with your argument is your total and complete reliance on the bibl"
+      },
+      {
+        "rank": 3,
+        "id": 3943,
+        "score": 0.56815,
+        "category": "soc.religion.christian",
+        "snippet": "Here is another way of looking at it. When we die we are released from the arc of time, and able to comprehend"
+      },
+      {
+        "rank": 4,
+        "id": 4923,
+        "score": 0.5568,
+        "category": "soc.religion.christian",
+        "snippet": "I have a few minor problems with the article posted as proof of Christ's resurrection. First the scriptural qu"
+      },
+      {
+        "rank": 5,
+        "id": 4507,
+        "score": 0.54303,
+        "category": "alt.atheism",
+        "snippet": "Another article that fell between the cracks: As evidence for the Resurrection, it is often claimed that the D"
+      }
+    ]
+  },
+  {
+    "query_index": 1,
+    "query": "what does the Bible say about the resurrection",
+    "config": "hnsw-weak-ef64",
+    "collection": "news_cosine_weak",
+    "ef": 64,
+    "overlap": 0.8,
+    "latency_ms": 10.124,
+    "results": [
+      {
+        "rank": 1,
+        "id": 515,
+        "score": 0.61798,
+        "category": "soc.religion.christian",
+        "snippet": "Here again, the problem with most of the individuals posting here, you take the biblical account as though it "
+      },
+      {
+        "rank": 2,
+        "id": 2351,
+        "score": 0.58659,
+        "category": "soc.religion.christian",
+        "snippet": "[ ACT 5:40 - 41 ] ... ... The basic problem with your argument is your total and complete reliance on the bibl"
+      },
+      {
+        "rank": 3,
+        "id": 3943,
+        "score": 0.56815,
+        "category": "soc.religion.christian",
+        "snippet": "Here is another way of looking at it. When we die we are released from the arc of time, and able to comprehend"
+      },
+      {
+        "rank": 4,
+        "id": 4923,
+        "score": 0.5568,
+        "category": "soc.religion.christian",
+        "snippet": "I have a few minor problems with the article posted as proof of Christ's resurrection. First the scriptural qu"
+      },
+      {
+        "rank": 5,
+        "id": 4507,
+        "score": 0.54303,
+        "category": "alt.atheism",
+        "snippet": "Another article that fell between the cracks: As evidence for the Resurrection, it is often claimed that the D"
+      }
+    ]
+  },
+  {
+    "query_index": 1,
+    "query": "what does the Bible say about the resurrection",
+    "config": "hnsw-weak-ef128",
+    "collection": "news_cosine_weak",
+    "ef": 128,
+    "overlap": 0.8,
+    "latency_ms": 9.751,
+    "results": [
+      {
+        "rank": 1,
+        "id": 515,
+        "score": 0.61798,
+        "category": "soc.religion.christian",
+        "snippet": "Here again, the problem with most of the individuals posting here, you take the biblical account as though it "
+      },
+      {
+        "rank": 2,
+        "id": 2351,
+        "score": 0.58659,
+        "category": "soc.religion.christian",
+        "snippet": "[ ACT 5:40 - 41 ] ... ... The basic problem with your argument is your total and complete reliance on the bibl"
+      },
+      {
+        "rank": 3,
+        "id": 3943,
+        "score": 0.56815,
+        "category": "soc.religion.christian",
+        "snippet": "Here is another way of looking at it. When we die we are released from the arc of time, and able to comprehend"
+      },
+      {
+        "rank": 4,
+        "id": 4923,
+        "score": 0.5568,
+        "category": "soc.religion.christian",
+        "snippet": "I have a few minor problems with the article posted as proof of Christ's resurrection. First the scriptural qu"
+      },
+      {
+        "rank": 5,
+        "id": 4507,
+        "score": 0.54303,
+        "category": "alt.atheism",
+        "snippet": "Another article that fell between the cracks: As evidence for the Resurrection, it is often claimed that the D"
+      }
+    ]
+  },
+  {
+    "query_index": 2,
+    "query": "for sale: used motorcycle in good condition",
+    "config": "exact",
+    "collection": "news_cosine",
+    "ef": null,
+    "overlap": 1.0,
+    "latency_ms": 11.073,
+    "results": [
+      {
+        "rank": 1,
+        "id": 2724,
+        "score": 0.68037,
+        "category": "rec.motorcycles",
+        "snippet": "[ Article crossposted from sdnet.forsale,rec.motocycle ] [ Author was Michael James ] [ Posted on 21 Apr 1993 "
+      },
+      {
+        "rank": 2,
+        "id": 1510,
+        "score": 0.62768,
+        "category": "rec.motorcycles",
+        "snippet": "Hi. I have been thinking about buying a Motorcycle or a while now and I have some questions: -Is there a buyin"
+      },
+      {
+        "rank": 3,
+        "id": 5100,
+        "score": 0.56115,
+        "category": "misc.forsale",
+        "snippet": "Followup-To:kedz@wpi.wpi.edu Distribution: ne Organization: Worcester Polytechnic Institute Keywords: I am loo"
+      },
+      {
+        "rank": 4,
+        "id": 2605,
+        "score": 0.55884,
+        "category": "misc.forsale",
+        "snippet": "For sale : Red Honda Scooter (150cc) Need m/c license Max speed - 63 mph Gas mileage - 74 mpg Max wt - 250 lbs"
+      },
+      {
+        "rank": 5,
+        "id": 3289,
+        "score": 0.55044,
+        "category": "misc.forsale",
+        "snippet": "FOR SALE 1990 Mitsubishi Eclipse GSX * All Wheel Drive * 195 HP, 16 Valve, Turbo * 5 Speed Transmission * Limi"
+      }
+    ]
+  },
+  {
+    "query_index": 2,
+    "query": "for sale: used motorcycle in good condition",
+    "config": "hnsw-default-ef16",
+    "collection": "news_cosine",
+    "ef": 16,
+    "overlap": 0.8,
+    "latency_ms": 8.968,
+    "results": [
+      {
+        "rank": 1,
+        "id": 2724,
+        "score": 0.68037,
+        "category": "rec.motorcycles",
+        "snippet": "[ Article crossposted from sdnet.forsale,rec.motocycle ] [ Author was Michael James ] [ Posted on 21 Apr 1993 "
+      },
+      {
+        "rank": 2,
+        "id": 1510,
+        "score": 0.62768,
+        "category": "rec.motorcycles",
+        "snippet": "Hi. I have been thinking about buying a Motorcycle or a while now and I have some questions: -Is there a buyin"
+      },
+      {
+        "rank": 3,
+        "id": 5100,
+        "score": 0.56115,
+        "category": "misc.forsale",
+        "snippet": "Followup-To:kedz@wpi.wpi.edu Distribution: ne Organization: Worcester Polytechnic Institute Keywords: I am loo"
+      },
+      {
+        "rank": 4,
+        "id": 2605,
+        "score": 0.55884,
+        "category": "misc.forsale",
+        "snippet": "For sale : Red Honda Scooter (150cc) Need m/c license Max speed - 63 mph Gas mileage - 74 mpg Max wt - 250 lbs"
+      },
+      {
+        "rank": 5,
+        "id": 1150,
+        "score": 0.54631,
+        "category": "misc.forsale",
+        "snippet": "F O R S A L E ================ Triumph Spitfire '76, 1500 - Convertible - 54,000k original miles - Burgandy Co"
+      }
+    ]
+  },
+  {
+    "query_index": 2,
+    "query": "for sale: used motorcycle in good condition",
+    "config": "hnsw-default-ef64",
+    "collection": "news_cosine",
+    "ef": 64,
+    "overlap": 1.0,
+    "latency_ms": 8.381,
+    "results": [
+      {
+        "rank": 1,
+        "id": 2724,
+        "score": 0.68037,
+        "category": "rec.motorcycles",
+        "snippet": "[ Article crossposted from sdnet.forsale,rec.motocycle ] [ Author was Michael James ] [ Posted on 21 Apr 1993 "
+      },
+      {
+        "rank": 2,
+        "id": 1510,
+        "score": 0.62768,
+        "category": "rec.motorcycles",
+        "snippet": "Hi. I have been thinking about buying a Motorcycle or a while now and I have some questions: -Is there a buyin"
+      },
+      {
+        "rank": 3,
+        "id": 5100,
+        "score": 0.56115,
+        "category": "misc.forsale",
+        "snippet": "Followup-To:kedz@wpi.wpi.edu Distribution: ne Organization: Worcester Polytechnic Institute Keywords: I am loo"
+      },
+      {
+        "rank": 4,
+        "id": 2605,
+        "score": 0.55884,
+        "category": "misc.forsale",
+        "snippet": "For sale : Red Honda Scooter (150cc) Need m/c license Max speed - 63 mph Gas mileage - 74 mpg Max wt - 250 lbs"
+      },
+      {
+        "rank": 5,
+        "id": 3289,
+        "score": 0.55044,
+        "category": "misc.forsale",
+        "snippet": "FOR SALE 1990 Mitsubishi Eclipse GSX * All Wheel Drive * 195 HP, 16 Valve, Turbo * 5 Speed Transmission * Limi"
+      }
+    ]
+  },
+  {
+    "query_index": 2,
+    "query": "for sale: used motorcycle in good condition",
+    "config": "hnsw-default-ef128",
+    "collection": "news_cosine",
+    "ef": 128,
+    "overlap": 1.0,
+    "latency_ms": 10.91,
+    "results": [
+      {
+        "rank": 1,
+        "id": 2724,
+        "score": 0.68037,
+        "category": "rec.motorcycles",
+        "snippet": "[ Article crossposted from sdnet.forsale,rec.motocycle ] [ Author was Michael James ] [ Posted on 21 Apr 1993 "
+      },
+      {
+        "rank": 2,
+        "id": 1510,
+        "score": 0.62768,
+        "category": "rec.motorcycles",
+        "snippet": "Hi. I have been thinking about buying a Motorcycle or a while now and I have some questions: -Is there a buyin"
+      },
+      {
+        "rank": 3,
+        "id": 5100,
+        "score": 0.56115,
+        "category": "misc.forsale",
+        "snippet": "Followup-To:kedz@wpi.wpi.edu Distribution: ne Organization: Worcester Polytechnic Institute Keywords: I am loo"
+      },
+      {
+        "rank": 4,
+        "id": 2605,
+        "score": 0.55884,
+        "category": "misc.forsale",
+        "snippet": "For sale : Red Honda Scooter (150cc) Need m/c license Max speed - 63 mph Gas mileage - 74 mpg Max wt - 250 lbs"
+      },
+      {
+        "rank": 5,
+        "id": 3289,
+        "score": 0.55044,
+        "category": "misc.forsale",
+        "snippet": "FOR SALE 1990 Mitsubishi Eclipse GSX * All Wheel Drive * 195 HP, 16 Valve, Turbo * 5 Speed Transmission * Limi"
+      }
+    ]
+  },
+  {
+    "query_index": 2,
+    "query": "for sale: used motorcycle in good condition",
+    "config": "hnsw-weak-ef16",
+    "collection": "news_cosine_weak",
+    "ef": 16,
+    "overlap": 0.8,
+    "latency_ms": 8.833,
+    "results": [
+      {
+        "rank": 1,
+        "id": 2724,
+        "score": 0.68037,
+        "category": "rec.motorcycles",
+        "snippet": "[ Article crossposted from sdnet.forsale,rec.motocycle ] [ Author was Michael James ] [ Posted on 21 Apr 1993 "
+      },
+      {
+        "rank": 2,
+        "id": 1510,
+        "score": 0.62768,
+        "category": "rec.motorcycles",
+        "snippet": "Hi. I have been thinking about buying a Motorcycle or a while now and I have some questions: -Is there a buyin"
+      },
+      {
+        "rank": 3,
+        "id": 5100,
+        "score": 0.56115,
+        "category": "misc.forsale",
+        "snippet": "Followup-To:kedz@wpi.wpi.edu Distribution: ne Organization: Worcester Polytechnic Institute Keywords: I am loo"
+      },
+      {
+        "rank": 4,
+        "id": 2605,
+        "score": 0.55884,
+        "category": "misc.forsale",
+        "snippet": "For sale : Red Honda Scooter (150cc) Need m/c license Max speed - 63 mph Gas mileage - 74 mpg Max wt - 250 lbs"
+      },
+      {
+        "rank": 5,
+        "id": 1150,
+        "score": 0.54631,
+        "category": "misc.forsale",
+        "snippet": "F O R S A L E ================ Triumph Spitfire '76, 1500 - Convertible - 54,000k original miles - Burgandy Co"
+      }
+    ]
+  },
+  {
+    "query_index": 2,
+    "query": "for sale: used motorcycle in good condition",
+    "config": "hnsw-weak-ef64",
+    "collection": "news_cosine_weak",
+    "ef": 64,
+    "overlap": 1.0,
+    "latency_ms": 8.92,
+    "results": [
+      {
+        "rank": 1,
+        "id": 2724,
+        "score": 0.68037,
+        "category": "rec.motorcycles",
+        "snippet": "[ Article crossposted from sdnet.forsale,rec.motocycle ] [ Author was Michael James ] [ Posted on 21 Apr 1993 "
+      },
+      {
+        "rank": 2,
+        "id": 1510,
+        "score": 0.62768,
+        "category": "rec.motorcycles",
+        "snippet": "Hi. I have been thinking about buying a Motorcycle or a while now and I have some questions: -Is there a buyin"
+      },
+      {
+        "rank": 3,
+        "id": 5100,
+        "score": 0.56115,
+        "category": "misc.forsale",
+        "snippet": "Followup-To:kedz@wpi.wpi.edu Distribution: ne Organization: Worcester Polytechnic Institute Keywords: I am loo"
+      },
+      {
+        "rank": 4,
+        "id": 2605,
+        "score": 0.55884,
+        "category": "misc.forsale",
+        "snippet": "For sale : Red Honda Scooter (150cc) Need m/c license Max speed - 63 mph Gas mileage - 74 mpg Max wt - 250 lbs"
+      },
+      {
+        "rank": 5,
+        "id": 3289,
+        "score": 0.55044,
+        "category": "misc.forsale",
+        "snippet": "FOR SALE 1990 Mitsubishi Eclipse GSX * All Wheel Drive * 195 HP, 16 Valve, Turbo * 5 Speed Transmission * Limi"
+      }
+    ]
+  },
+  {
+    "query_index": 2,
+    "query": "for sale: used motorcycle in good condition",
+    "config": "hnsw-weak-ef128",
+    "collection": "news_cosine_weak",
+    "ef": 128,
+    "overlap": 1.0,
+    "latency_ms": 6.851,
+    "results": [
+      {
+        "rank": 1,
+        "id": 2724,
+        "score": 0.68037,
+        "category": "rec.motorcycles",
+        "snippet": "[ Article crossposted from sdnet.forsale,rec.motocycle ] [ Author was Michael James ] [ Posted on 21 Apr 1993 "
+      },
+      {
+        "rank": 2,
+        "id": 1510,
+        "score": 0.62768,
+        "category": "rec.motorcycles",
+        "snippet": "Hi. I have been thinking about buying a Motorcycle or a while now and I have some questions: -Is there a buyin"
+      },
+      {
+        "rank": 3,
+        "id": 5100,
+        "score": 0.56115,
+        "category": "misc.forsale",
+        "snippet": "Followup-To:kedz@wpi.wpi.edu Distribution: ne Organization: Worcester Polytechnic Institute Keywords: I am loo"
+      },
+      {
+        "rank": 4,
+        "id": 2605,
+        "score": 0.55884,
+        "category": "misc.forsale",
+        "snippet": "For sale : Red Honda Scooter (150cc) Need m/c license Max speed - 63 mph Gas mileage - 74 mpg Max wt - 250 lbs"
+      },
+      {
+        "rank": 5,
+        "id": 3289,
+        "score": 0.55044,
+        "category": "misc.forsale",
+        "snippet": "FOR SALE 1990 Mitsubishi Eclipse GSX * All Wheel Drive * 195 HP, 16 Valve, Turbo * 5 Speed Transmission * Limi"
+      }
+    ]
+  },
+  {
+    "query_index": 3,
+    "query": "government encryption policy and the clipper chip",
+    "config": "exact",
+    "collection": "news_cosine",
+    "ef": null,
+    "overlap": 1.0,
+    "latency_ms": 11.316,
+    "results": [
+      {
+        "rank": 1,
+        "id": 1603,
+        "score": 0.76117,
+        "category": "sci.crypt",
+        "snippet": "The following document summarizes the Clipper Chip, how it is used, how programming of the chip is coupled to "
+      },
+      {
+        "rank": 2,
+        "id": 557,
+        "score": 0.75052,
+        "category": "sci.crypt",
+        "snippet": "April 16, 1993 INITIAL EFF ANALYSIS OF CLINTON PRIVACY AND SECURITY PROPOSAL The Clinton Administration today "
+      },
+      {
+        "rank": 3,
+        "id": 5616,
+        "score": 0.74982,
+        "category": "sci.crypt",
+        "snippet": "Having read the various \"Clipper\" announcements on the net over the last few days and a LOT of uninformed spec"
+      },
+      {
+        "rank": 4,
+        "id": 5237,
+        "score": 0.73553,
+        "category": "sci.crypt",
+        "snippet": "[An article from comp.org.eff.news, EFFector Online 5.06 - Carl] April 16, 1993 INITIAL EFF ANALYSIS OF CLINTO"
+      },
+      {
+        "rank": 5,
+        "id": 5588,
+        "score": 0.703,
+        "category": "sci.crypt",
+        "snippet": "I totally agree. But how do you propose we take government back? They obviously don't listen to the people or "
+      }
+    ]
+  },
+  {
+    "query_index": 3,
+    "query": "government encryption policy and the clipper chip",
+    "config": "hnsw-default-ef16",
+    "collection": "news_cosine",
+    "ef": 16,
+    "overlap": 1.0,
+    "latency_ms": 10.284,
+    "results": [
+      {
+        "rank": 1,
+        "id": 1603,
+        "score": 0.76117,
+        "category": "sci.crypt",
+        "snippet": "The following document summarizes the Clipper Chip, how it is used, how programming of the chip is coupled to "
+      },
+      {
+        "rank": 2,
+        "id": 557,
+        "score": 0.75052,
+        "category": "sci.crypt",
+        "snippet": "April 16, 1993 INITIAL EFF ANALYSIS OF CLINTON PRIVACY AND SECURITY PROPOSAL The Clinton Administration today "
+      },
+      {
+        "rank": 3,
+        "id": 5616,
+        "score": 0.74982,
+        "category": "sci.crypt",
+        "snippet": "Having read the various \"Clipper\" announcements on the net over the last few days and a LOT of uninformed spec"
+      },
+      {
+        "rank": 4,
+        "id": 5237,
+        "score": 0.73553,
+        "category": "sci.crypt",
+        "snippet": "[An article from comp.org.eff.news, EFFector Online 5.06 - Carl] April 16, 1993 INITIAL EFF ANALYSIS OF CLINTO"
+      },
+      {
+        "rank": 5,
+        "id": 5588,
+        "score": 0.703,
+        "category": "sci.crypt",
+        "snippet": "I totally agree. But how do you propose we take government back? They obviously don't listen to the people or "
+      }
+    ]
+  },
+  {
+    "query_index": 3,
+    "query": "government encryption policy and the clipper chip",
+    "config": "hnsw-default-ef64",
+    "collection": "news_cosine",
+    "ef": 64,
+    "overlap": 1.0,
+    "latency_ms": 12.655,
+    "results": [
+      {
+        "rank": 1,
+        "id": 1603,
+        "score": 0.76117,
+        "category": "sci.crypt",
+        "snippet": "The following document summarizes the Clipper Chip, how it is used, how programming of the chip is coupled to "
+      },
+      {
+        "rank": 2,
+        "id": 557,
+        "score": 0.75052,
+        "category": "sci.crypt",
+        "snippet": "April 16, 1993 INITIAL EFF ANALYSIS OF CLINTON PRIVACY AND SECURITY PROPOSAL The Clinton Administration today "
+      },
+      {
+        "rank": 3,
+        "id": 5616,
+        "score": 0.74982,
+        "category": "sci.crypt",
+        "snippet": "Having read the various \"Clipper\" announcements on the net over the last few days and a LOT of uninformed spec"
+      },
+      {
+        "rank": 4,
+        "id": 5237,
+        "score": 0.73553,
+        "category": "sci.crypt",
+        "snippet": "[An article from comp.org.eff.news, EFFector Online 5.06 - Carl] April 16, 1993 INITIAL EFF ANALYSIS OF CLINTO"
+      },
+      {
+        "rank": 5,
+        "id": 5588,
+        "score": 0.703,
+        "category": "sci.crypt",
+        "snippet": "I totally agree. But how do you propose we take government back? They obviously don't listen to the people or "
+      }
+    ]
+  },
+  {
+    "query_index": 3,
+    "query": "government encryption policy and the clipper chip",
+    "config": "hnsw-default-ef128",
+    "collection": "news_cosine",
+    "ef": 128,
+    "overlap": 1.0,
+    "latency_ms": 14.719,
+    "results": [
+      {
+        "rank": 1,
+        "id": 1603,
+        "score": 0.76117,
+        "category": "sci.crypt",
+        "snippet": "The following document summarizes the Clipper Chip, how it is used, how programming of the chip is coupled to "
+      },
+      {
+        "rank": 2,
+        "id": 557,
+        "score": 0.75052,
+        "category": "sci.crypt",
+        "snippet": "April 16, 1993 INITIAL EFF ANALYSIS OF CLINTON PRIVACY AND SECURITY PROPOSAL The Clinton Administration today "
+      },
+      {
+        "rank": 3,
+        "id": 5616,
+        "score": 0.74982,
+        "category": "sci.crypt",
+        "snippet": "Having read the various \"Clipper\" announcements on the net over the last few days and a LOT of uninformed spec"
+      },
+      {
+        "rank": 4,
+        "id": 5237,
+        "score": 0.73553,
+        "category": "sci.crypt",
+        "snippet": "[An article from comp.org.eff.news, EFFector Online 5.06 - Carl] April 16, 1993 INITIAL EFF ANALYSIS OF CLINTO"
+      },
+      {
+        "rank": 5,
+        "id": 5588,
+        "score": 0.703,
+        "category": "sci.crypt",
+        "snippet": "I totally agree. But how do you propose we take government back? They obviously don't listen to the people or "
+      }
+    ]
+  },
+  {
+    "query_index": 3,
+    "query": "government encryption policy and the clipper chip",
+    "config": "hnsw-weak-ef16",
+    "collection": "news_cosine_weak",
+    "ef": 16,
+    "overlap": 1.0,
+    "latency_ms": 10.387,
+    "results": [
+      {
+        "rank": 1,
+        "id": 1603,
+        "score": 0.76117,
+        "category": "sci.crypt",
+        "snippet": "The following document summarizes the Clipper Chip, how it is used, how programming of the chip is coupled to "
+      },
+      {
+        "rank": 2,
+        "id": 557,
+        "score": 0.75052,
+        "category": "sci.crypt",
+        "snippet": "April 16, 1993 INITIAL EFF ANALYSIS OF CLINTON PRIVACY AND SECURITY PROPOSAL The Clinton Administration today "
+      },
+      {
+        "rank": 3,
+        "id": 5616,
+        "score": 0.74982,
+        "category": "sci.crypt",
+        "snippet": "Having read the various \"Clipper\" announcements on the net over the last few days and a LOT of uninformed spec"
+      },
+      {
+        "rank": 4,
+        "id": 5237,
+        "score": 0.73553,
+        "category": "sci.crypt",
+        "snippet": "[An article from comp.org.eff.news, EFFector Online 5.06 - Carl] April 16, 1993 INITIAL EFF ANALYSIS OF CLINTO"
+      },
+      {
+        "rank": 5,
+        "id": 5588,
+        "score": 0.703,
+        "category": "sci.crypt",
+        "snippet": "I totally agree. But how do you propose we take government back? They obviously don't listen to the people or "
+      }
+    ]
+  },
+  {
+    "query_index": 3,
+    "query": "government encryption policy and the clipper chip",
+    "config": "hnsw-weak-ef64",
+    "collection": "news_cosine_weak",
+    "ef": 64,
+    "overlap": 1.0,
+    "latency_ms": 10.866,
+    "results": [
+      {
+        "rank": 1,
+        "id": 1603,
+        "score": 0.76117,
+        "category": "sci.crypt",
+        "snippet": "The following document summarizes the Clipper Chip, how it is used, how programming of the chip is coupled to "
+      },
+      {
+        "rank": 2,
+        "id": 557,
+        "score": 0.75052,
+        "category": "sci.crypt",
+        "snippet": "April 16, 1993 INITIAL EFF ANALYSIS OF CLINTON PRIVACY AND SECURITY PROPOSAL The Clinton Administration today "
+      },
+      {
+        "rank": 3,
+        "id": 5616,
+        "score": 0.74982,
+        "category": "sci.crypt",
+        "snippet": "Having read the various \"Clipper\" announcements on the net over the last few days and a LOT of uninformed spec"
+      },
+      {
+        "rank": 4,
+        "id": 5237,
+        "score": 0.73553,
+        "category": "sci.crypt",
+        "snippet": "[An article from comp.org.eff.news, EFFector Online 5.06 - Carl] April 16, 1993 INITIAL EFF ANALYSIS OF CLINTO"
+      },
+      {
+        "rank": 5,
+        "id": 5588,
+        "score": 0.703,
+        "category": "sci.crypt",
+        "snippet": "I totally agree. But how do you propose we take government back? They obviously don't listen to the people or "
+      }
+    ]
+  },
+  {
+    "query_index": 3,
+    "query": "government encryption policy and the clipper chip",
+    "config": "hnsw-weak-ef128",
+    "collection": "news_cosine_weak",
+    "ef": 128,
+    "overlap": 1.0,
+    "latency_ms": 9.42,
+    "results": [
+      {
+        "rank": 1,
+        "id": 1603,
+        "score": 0.76117,
+        "category": "sci.crypt",
+        "snippet": "The following document summarizes the Clipper Chip, how it is used, how programming of the chip is coupled to "
+      },
+      {
+        "rank": 2,
+        "id": 557,
+        "score": 0.75052,
+        "category": "sci.crypt",
+        "snippet": "April 16, 1993 INITIAL EFF ANALYSIS OF CLINTON PRIVACY AND SECURITY PROPOSAL The Clinton Administration today "
+      },
+      {
+        "rank": 3,
+        "id": 5616,
+        "score": 0.74982,
+        "category": "sci.crypt",
+        "snippet": "Having read the various \"Clipper\" announcements on the net over the last few days and a LOT of uninformed spec"
+      },
+      {
+        "rank": 4,
+        "id": 5237,
+        "score": 0.73553,
+        "category": "sci.crypt",
+        "snippet": "[An article from comp.org.eff.news, EFFector Online 5.06 - Carl] April 16, 1993 INITIAL EFF ANALYSIS OF CLINTO"
+      },
+      {
+        "rank": 5,
+        "id": 5588,
+        "score": 0.703,
+        "category": "sci.crypt",
+        "snippet": "I totally agree. But how do you propose we take government back? They obviously don't listen to the people or "
+      }
+    ]
+  },
+  {
+    "query_index": 4,
+    "query": "treatment options for chronic back pain",
+    "config": "exact",
+    "collection": "news_cosine",
+    "ef": null,
+    "overlap": 1.0,
+    "latency_ms": 17.813,
+    "results": [
+      {
+        "rank": 1,
+        "id": 3944,
+        "score": 0.41673,
+        "category": "sci.med",
+        "snippet": "A friend of mine has been diagnosed with Psoriatic Arthritis, as a result of trauma sustained in a car acciden"
+      },
+      {
+        "rank": 2,
+        "id": 1716,
+        "score": 0.3213,
+        "category": "sci.med",
+        "snippet": "Morphine or demerol is about the only effective way of stopping pain that severe. Obviously, she'll need a pre"
+      },
+      {
+        "rank": 3,
+        "id": 2753,
+        "score": 0.31956,
+        "category": "sci.med",
+        "snippet": "I second what Spenser Aden said in reply. Additionally, it is hard to say what type of response you ar3e havin"
+      },
+      {
+        "rank": 4,
+        "id": 191,
+        "score": 0.31316,
+        "category": "sci.med",
+        "snippet": "Two approaches that I've used: Tofranil, 50 mg qhs, Naproxen 250mg bid. The Naproxen doesn't seem to be as bad"
+      },
+      {
+        "rank": 5,
+        "id": 850,
+        "score": 0.29607,
+        "category": "sci.med",
+        "snippet": "My mother has been advised to have a bone scan performed? What is this procedure for, and is it painful? She's"
+      }
+    ]
+  },
+  {
+    "query_index": 4,
+    "query": "treatment options for chronic back pain",
+    "config": "hnsw-default-ef16",
+    "collection": "news_cosine",
+    "ef": 16,
+    "overlap": 1.0,
+    "latency_ms": 11.231,
+    "results": [
+      {
+        "rank": 1,
+        "id": 3944,
+        "score": 0.41673,
+        "category": "sci.med",
+        "snippet": "A friend of mine has been diagnosed with Psoriatic Arthritis, as a result of trauma sustained in a car acciden"
+      },
+      {
+        "rank": 2,
+        "id": 1716,
+        "score": 0.3213,
+        "category": "sci.med",
+        "snippet": "Morphine or demerol is about the only effective way of stopping pain that severe. Obviously, she'll need a pre"
+      },
+      {
+        "rank": 3,
+        "id": 2753,
+        "score": 0.31956,
+        "category": "sci.med",
+        "snippet": "I second what Spenser Aden said in reply. Additionally, it is hard to say what type of response you ar3e havin"
+      },
+      {
+        "rank": 4,
+        "id": 191,
+        "score": 0.31316,
+        "category": "sci.med",
+        "snippet": "Two approaches that I've used: Tofranil, 50 mg qhs, Naproxen 250mg bid. The Naproxen doesn't seem to be as bad"
+      },
+      {
+        "rank": 5,
+        "id": 850,
+        "score": 0.29607,
+        "category": "sci.med",
+        "snippet": "My mother has been advised to have a bone scan performed? What is this procedure for, and is it painful? She's"
+      }
+    ]
+  },
+  {
+    "query_index": 4,
+    "query": "treatment options for chronic back pain",
+    "config": "hnsw-default-ef64",
+    "collection": "news_cosine",
+    "ef": 64,
+    "overlap": 1.0,
+    "latency_ms": 9.933,
+    "results": [
+      {
+        "rank": 1,
+        "id": 3944,
+        "score": 0.41673,
+        "category": "sci.med",
+        "snippet": "A friend of mine has been diagnosed with Psoriatic Arthritis, as a result of trauma sustained in a car acciden"
+      },
+      {
+        "rank": 2,
+        "id": 1716,
+        "score": 0.3213,
+        "category": "sci.med",
+        "snippet": "Morphine or demerol is about the only effective way of stopping pain that severe. Obviously, she'll need a pre"
+      },
+      {
+        "rank": 3,
+        "id": 2753,
+        "score": 0.31956,
+        "category": "sci.med",
+        "snippet": "I second what Spenser Aden said in reply. Additionally, it is hard to say what type of response you ar3e havin"
+      },
+      {
+        "rank": 4,
+        "id": 191,
+        "score": 0.31316,
+        "category": "sci.med",
+        "snippet": "Two approaches that I've used: Tofranil, 50 mg qhs, Naproxen 250mg bid. The Naproxen doesn't seem to be as bad"
+      },
+      {
+        "rank": 5,
+        "id": 850,
+        "score": 0.29607,
+        "category": "sci.med",
+        "snippet": "My mother has been advised to have a bone scan performed? What is this procedure for, and is it painful? She's"
+      }
+    ]
+  },
+  {
+    "query_index": 4,
+    "query": "treatment options for chronic back pain",
+    "config": "hnsw-default-ef128",
+    "collection": "news_cosine",
+    "ef": 128,
+    "overlap": 1.0,
+    "latency_ms": 11.347,
+    "results": [
+      {
+        "rank": 1,
+        "id": 3944,
+        "score": 0.41673,
+        "category": "sci.med",
+        "snippet": "A friend of mine has been diagnosed with Psoriatic Arthritis, as a result of trauma sustained in a car acciden"
+      },
+      {
+        "rank": 2,
+        "id": 1716,
+        "score": 0.3213,
+        "category": "sci.med",
+        "snippet": "Morphine or demerol is about the only effective way of stopping pain that severe. Obviously, she'll need a pre"
+      },
+      {
+        "rank": 3,
+        "id": 2753,
+        "score": 0.31956,
+        "category": "sci.med",
+        "snippet": "I second what Spenser Aden said in reply. Additionally, it is hard to say what type of response you ar3e havin"
+      },
+      {
+        "rank": 4,
+        "id": 191,
+        "score": 0.31316,
+        "category": "sci.med",
+        "snippet": "Two approaches that I've used: Tofranil, 50 mg qhs, Naproxen 250mg bid. The Naproxen doesn't seem to be as bad"
+      },
+      {
+        "rank": 5,
+        "id": 850,
+        "score": 0.29607,
+        "category": "sci.med",
+        "snippet": "My mother has been advised to have a bone scan performed? What is this procedure for, and is it painful? She's"
+      }
+    ]
+  },
+  {
+    "query_index": 4,
+    "query": "treatment options for chronic back pain",
+    "config": "hnsw-weak-ef16",
+    "collection": "news_cosine_weak",
+    "ef": 16,
+    "overlap": 0.2,
+    "latency_ms": 10.557,
+    "results": [
+      {
+        "rank": 1,
+        "id": 3944,
+        "score": 0.41673,
+        "category": "sci.med",
+        "snippet": "A friend of mine has been diagnosed with Psoriatic Arthritis, as a result of trauma sustained in a car acciden"
+      },
+      {
+        "rank": 2,
+        "id": 3474,
+        "score": 0.29079,
+        "category": "sci.med",
+        "snippet": "I've got a very nice collection of historical books on medical quackery, and on the topic of massage this is a"
+      },
+      {
+        "rank": 3,
+        "id": 2928,
+        "score": 0.29041,
+        "category": "sci.med",
+        "snippet": "I need advice with a situation which occurred between me and a physican which upset me. I saw this doctor for "
+      },
+      {
+        "rank": 4,
+        "id": 4365,
+        "score": 0.28921,
+        "category": "sci.med",
+        "snippet": "JB> RR> \"I don't doubt that the placebo effect is alive and well with JB> RR> EVERY medical modality - estimat"
+      },
+      {
+        "rank": 5,
+        "id": 1184,
+        "score": 0.27459,
+        "category": "sci.med",
+        "snippet": "Gee! Maybe I've misjudged you, Russell. Anyone who agrees with something I say can't be all bad. ;-) Seriously"
+      }
+    ]
+  },
+  {
+    "query_index": 4,
+    "query": "treatment options for chronic back pain",
+    "config": "hnsw-weak-ef64",
+    "collection": "news_cosine_weak",
+    "ef": 64,
+    "overlap": 0.2,
+    "latency_ms": 9.348,
+    "results": [
+      {
+        "rank": 1,
+        "id": 3944,
+        "score": 0.41673,
+        "category": "sci.med",
+        "snippet": "A friend of mine has been diagnosed with Psoriatic Arthritis, as a result of trauma sustained in a car acciden"
+      },
+      {
+        "rank": 2,
+        "id": 2430,
+        "score": 0.29157,
+        "category": "sci.med",
+        "snippet": "My wife and I are in the process of selecting a pediatrician for our first child (due June 15th). We interview"
+      },
+      {
+        "rank": 3,
+        "id": 3474,
+        "score": 0.29079,
+        "category": "sci.med",
+        "snippet": "I've got a very nice collection of historical books on medical quackery, and on the topic of massage this is a"
+      },
+      {
+        "rank": 4,
+        "id": 2928,
+        "score": 0.29041,
+        "category": "sci.med",
+        "snippet": "I need advice with a situation which occurred between me and a physican which upset me. I saw this doctor for "
+      },
+      {
+        "rank": 5,
+        "id": 4365,
+        "score": 0.28921,
+        "category": "sci.med",
+        "snippet": "JB> RR> \"I don't doubt that the placebo effect is alive and well with JB> RR> EVERY medical modality - estimat"
+      }
+    ]
+  },
+  {
+    "query_index": 4,
+    "query": "treatment options for chronic back pain",
+    "config": "hnsw-weak-ef128",
+    "collection": "news_cosine_weak",
+    "ef": 128,
+    "overlap": 0.2,
+    "latency_ms": 9.306,
+    "results": [
+      {
+        "rank": 1,
+        "id": 3944,
+        "score": 0.41673,
+        "category": "sci.med",
+        "snippet": "A friend of mine has been diagnosed with Psoriatic Arthritis, as a result of trauma sustained in a car acciden"
+      },
+      {
+        "rank": 2,
+        "id": 2430,
+        "score": 0.29157,
+        "category": "sci.med",
+        "snippet": "My wife and I are in the process of selecting a pediatrician for our first child (due June 15th). We interview"
+      },
+      {
+        "rank": 3,
+        "id": 3474,
+        "score": 0.29079,
+        "category": "sci.med",
+        "snippet": "I've got a very nice collection of historical books on medical quackery, and on the topic of massage this is a"
+      },
+      {
+        "rank": 4,
+        "id": 2928,
+        "score": 0.29041,
+        "category": "sci.med",
+        "snippet": "I need advice with a situation which occurred between me and a physican which upset me. I saw this doctor for "
+      },
+      {
+        "rank": 5,
+        "id": 4365,
+        "score": 0.28921,
+        "category": "sci.med",
+        "snippet": "JB> RR> \"I don't doubt that the placebo effect is alive and well with JB> RR> EVERY medical modality - estimat"
+      }
+    ]
+  }
+]
