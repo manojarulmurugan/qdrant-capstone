@@ -70,3 +70,24 @@ python ivf.py
 | `compare.py` | runs every method, writes `results/` |
 | `queries.md` | the five test queries and the categories they target |
 | `comparison.md` | the written comparison |
+
+## Verifying Qdrant is up
+
+```
+$ curl -s http://localhost:6333/
+{"title":"qdrant - vector search engine","version":"1.19.1", ...}
+
+$ curl -s -o /dev/null -w "%{http_code}\n" http://localhost:6333/dashboard
+200
+```
+
+The dashboard at <http://localhost:6333/dashboard> was confirmed loading and
+listing all four collections, each GREEN with 6,000 points and 384-dimensional
+vectors: `news_cosine` (Cosine), `news_cosine_weak` (Cosine), `news_dot` (Dot)
+and `news_euclid` (Euclid).
+
+After `python qdrant_setup.py`, the same can be checked from the command line:
+
+```bash
+curl -s http://localhost:6333/collections | python3 -m json.tool
+```
