@@ -4,7 +4,7 @@ Five natural-language queries, none of which quote any document verbatim. Each o
 
 | # | Query | Categories I expect to see |
 |---|-------|----------------------------|
-| 1 | a question about a graphics card driver | `comp.graphics`, `comp.sys.ibm.pc.hardware`, `comp.os.ms-windows.misc` |
+| 1 | my video card driver keeps crashing windows | `comp.graphics`, `comp.sys.ibm.pc.hardware`, `comp.os.ms-windows.misc` |
 | 2 | what does the Bible say about the resurrection | `soc.religion.christian`, `talk.religion.misc`, `alt.atheism` |
 | 3 | for sale: used motorcycle in good condition | `misc.forsale`, `rec.motorcycles` |
 | 4 | government encryption policy and the clipper chip | `sci.crypt`, `talk.politics.misc` |

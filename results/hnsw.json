@@ -1,323 +1,323 @@
 [
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "config": "exact",
     "collection": "news_cosine",
     "ef": null,
     "overlap": 1.0,
-    "latency_ms": 17.723,
+    "latency_ms": 5.847,
     "results": [
       {
         "rank": 1,
-        "id": 5379,
-        "score": 0.48239,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+        "id": 654,
+        "score": 0.56091,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
       },
       {
         "rank": 2,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+        "id": 3420,
+        "score": 0.48607,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
       },
       {
         "rank": 3,
+        "id": 4774,
+        "score": 0.45772,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
         "id": 5397,
-        "score": 0.43741,
+        "score": 0.44598,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
       },
       {
-        "rank": 4,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
         "rank": 5,
-        "id": 654,
-        "score": 0.41584,
+        "id": 209,
+        "score": 0.44206,
         "category": "comp.os.ms-windows.misc",
-        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
       }
     ]
   },
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "config": "hnsw-default-ef16",
     "collection": "news_cosine",
     "ef": 16,
     "overlap": 1.0,
-    "latency_ms": 10.806,
+    "latency_ms": 5.284,
     "results": [
       {
         "rank": 1,
-        "id": 5379,
-        "score": 0.48239,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+        "id": 654,
+        "score": 0.56091,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
       },
       {
         "rank": 2,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+        "id": 3420,
+        "score": 0.48607,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
       },
       {
         "rank": 3,
+        "id": 4774,
+        "score": 0.45772,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
         "id": 5397,
-        "score": 0.43741,
+        "score": 0.44598,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
       },
       {
-        "rank": 4,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
         "rank": 5,
-        "id": 654,
-        "score": 0.41584,
+        "id": 209,
+        "score": 0.44206,
         "category": "comp.os.ms-windows.misc",
-        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
       }
     ]
   },
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "config": "hnsw-default-ef64",
     "collection": "news_cosine",
     "ef": 64,
     "overlap": 1.0,
-    "latency_ms": 6.357,
+    "latency_ms": 6.158,
     "results": [
       {
         "rank": 1,
-        "id": 5379,
-        "score": 0.48239,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+        "id": 654,
+        "score": 0.56091,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
       },
       {
         "rank": 2,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+        "id": 3420,
+        "score": 0.48607,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
       },
       {
         "rank": 3,
+        "id": 4774,
+        "score": 0.45772,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
         "id": 5397,
-        "score": 0.43741,
+        "score": 0.44598,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
       },
       {
-        "rank": 4,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
         "rank": 5,
-        "id": 654,
-        "score": 0.41584,
+        "id": 209,
+        "score": 0.44206,
         "category": "comp.os.ms-windows.misc",
-        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
       }
     ]
   },
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "config": "hnsw-default-ef128",
     "collection": "news_cosine",
     "ef": 128,
     "overlap": 1.0,
-    "latency_ms": 7.479,
+    "latency_ms": 5.772,
     "results": [
       {
         "rank": 1,
-        "id": 5379,
-        "score": 0.48239,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+        "id": 654,
+        "score": 0.56091,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
       },
       {
         "rank": 2,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+        "id": 3420,
+        "score": 0.48607,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
       },
       {
         "rank": 3,
+        "id": 4774,
+        "score": 0.45772,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
         "id": 5397,
-        "score": 0.43741,
+        "score": 0.44598,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
       },
       {
-        "rank": 4,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
         "rank": 5,
-        "id": 654,
-        "score": 0.41584,
+        "id": 209,
+        "score": 0.44206,
         "category": "comp.os.ms-windows.misc",
-        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
       }
     ]
   },
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "config": "hnsw-weak-ef16",
     "collection": "news_cosine_weak",
     "ef": 16,
-    "overlap": 0.8,
-    "latency_ms": 7.097,
+    "overlap": 1.0,
+    "latency_ms": 5.829,
     "results": [
       {
         "rank": 1,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
-      },
-      {
-        "rank": 2,
-        "id": 5397,
-        "score": 0.43741,
-        "category": "comp.os.ms-windows.misc",
-        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
-      },
-      {
-        "rank": 3,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
-        "rank": 4,
         "id": 654,
-        "score": 0.41584,
+        "score": 0.56091,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
       },
       {
+        "rank": 2,
+        "id": 3420,
+        "score": 0.48607,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
+      },
+      {
+        "rank": 3,
+        "id": 4774,
+        "score": 0.45772,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
+        "id": 5397,
+        "score": 0.44598,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
         "rank": 5,
-        "id": 4863,
-        "score": 0.4095,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "Hi there. We just bought a 486 DX2/66 Gateway system with a 2 meg ATI Ultra Pro video card. Everything seems t"
+        "id": 209,
+        "score": 0.44206,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
       }
     ]
   },
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "config": "hnsw-weak-ef64",
     "collection": "news_cosine_weak",
     "ef": 64,
-    "overlap": 0.8,
-    "latency_ms": 5.953,
+    "overlap": 1.0,
+    "latency_ms": 5.399,
     "results": [
       {
         "rank": 1,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
-      },
-      {
-        "rank": 2,
-        "id": 5397,
-        "score": 0.43741,
-        "category": "comp.os.ms-windows.misc",
-        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
-      },
-      {
-        "rank": 3,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
-        "rank": 4,
         "id": 654,
-        "score": 0.41584,
+        "score": 0.56091,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
       },
       {
+        "rank": 2,
+        "id": 3420,
+        "score": 0.48607,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
+      },
+      {
+        "rank": 3,
+        "id": 4774,
+        "score": 0.45772,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
+        "id": 5397,
+        "score": 0.44598,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
         "rank": 5,
-        "id": 4863,
-        "score": 0.4095,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "Hi there. We just bought a 486 DX2/66 Gateway system with a 2 meg ATI Ultra Pro video card. Everything seems t"
+        "id": 209,
+        "score": 0.44206,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
       }
     ]
   },
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "config": "hnsw-weak-ef128",
     "collection": "news_cosine_weak",
     "ef": 128,
     "overlap": 1.0,
-    "latency_ms": 8.425,
+    "latency_ms": 5.426,
     "results": [
       {
         "rank": 1,
-        "id": 5379,
-        "score": 0.48239,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+        "id": 654,
+        "score": 0.56091,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
       },
       {
         "rank": 2,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+        "id": 3420,
+        "score": 0.48607,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
       },
       {
         "rank": 3,
+        "id": 4774,
+        "score": 0.45772,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
         "id": 5397,
-        "score": 0.43741,
+        "score": 0.44598,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
       },
       {
-        "rank": 4,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
         "rank": 5,
-        "id": 654,
-        "score": 0.41584,
+        "id": 209,
+        "score": 0.44206,
         "category": "comp.os.ms-windows.misc",
-        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
       }
     ]
   },
@@ -328,7 +328,7 @@
     "collection": "news_cosine",
     "ef": null,
     "overlap": 1.0,
-    "latency_ms": 7.904,
+    "latency_ms": 6.537,
     "results": [
       {
         "rank": 1,
@@ -374,7 +374,7 @@
     "collection": "news_cosine",
     "ef": 16,
     "overlap": 1.0,
-    "latency_ms": 11.617,
+    "latency_ms": 5.987,
     "results": [
       {
         "rank": 1,
@@ -420,7 +420,7 @@
     "collection": "news_cosine",
     "ef": 64,
     "overlap": 1.0,
-    "latency_ms": 9.217,
+    "latency_ms": 5.585,
     "results": [
       {
         "rank": 1,
@@ -466,7 +466,7 @@
     "collection": "news_cosine",
     "ef": 128,
     "overlap": 1.0,
-    "latency_ms": 9.612,
+    "latency_ms": 6.849,
     "results": [
       {
         "rank": 1,
@@ -512,7 +512,7 @@
     "collection": "news_cosine_weak",
     "ef": 16,
     "overlap": 0.8,
-    "latency_ms": 9.318,
+    "latency_ms": 5.692,
     "results": [
       {
         "rank": 1,
@@ -558,7 +558,7 @@
     "collection": "news_cosine_weak",
     "ef": 64,
     "overlap": 0.8,
-    "latency_ms": 10.124,
+    "latency_ms": 7.029,
     "results": [
       {
         "rank": 1,
@@ -604,7 +604,7 @@
     "collection": "news_cosine_weak",
     "ef": 128,
     "overlap": 0.8,
-    "latency_ms": 9.751,
+    "latency_ms": 6.615,
     "results": [
       {
         "rank": 1,
@@ -650,7 +650,7 @@
     "collection": "news_cosine",
     "ef": null,
     "overlap": 1.0,
-    "latency_ms": 11.073,
+    "latency_ms": 6.274,
     "results": [
       {
         "rank": 1,
@@ -696,7 +696,7 @@
     "collection": "news_cosine",
     "ef": 16,
     "overlap": 0.8,
-    "latency_ms": 8.968,
+    "latency_ms": 5.494,
     "results": [
       {
         "rank": 1,
@@ -742,7 +742,7 @@
     "collection": "news_cosine",
     "ef": 64,
     "overlap": 1.0,
-    "latency_ms": 8.381,
+    "latency_ms": 5.965,
     "results": [
       {
         "rank": 1,
@@ -788,7 +788,7 @@
     "collection": "news_cosine",
     "ef": 128,
     "overlap": 1.0,
-    "latency_ms": 10.91,
+    "latency_ms": 5.559,
     "results": [
       {
         "rank": 1,
@@ -834,7 +834,7 @@
     "collection": "news_cosine_weak",
     "ef": 16,
     "overlap": 0.8,
-    "latency_ms": 8.833,
+    "latency_ms": 5.324,
     "results": [
       {
         "rank": 1,
@@ -880,7 +880,7 @@
     "collection": "news_cosine_weak",
     "ef": 64,
     "overlap": 1.0,
-    "latency_ms": 8.92,
+    "latency_ms": 5.425,
     "results": [
       {
         "rank": 1,
@@ -926,7 +926,7 @@
     "collection": "news_cosine_weak",
     "ef": 128,
     "overlap": 1.0,
-    "latency_ms": 6.851,
+    "latency_ms": 6.317,
     "results": [
       {
         "rank": 1,
@@ -972,7 +972,7 @@
     "collection": "news_cosine",
     "ef": null,
     "overlap": 1.0,
-    "latency_ms": 11.316,
+    "latency_ms": 6.45,
     "results": [
       {
         "rank": 1,
@@ -1018,7 +1018,7 @@
     "collection": "news_cosine",
     "ef": 16,
     "overlap": 1.0,
-    "latency_ms": 10.284,
+    "latency_ms": 5.123,
     "results": [
       {
         "rank": 1,
@@ -1064,7 +1064,7 @@
     "collection": "news_cosine",
     "ef": 64,
     "overlap": 1.0,
-    "latency_ms": 12.655,
+    "latency_ms": 6.099,
     "results": [
       {
         "rank": 1,
@@ -1110,7 +1110,7 @@
     "collection": "news_cosine",
     "ef": 128,
     "overlap": 1.0,
-    "latency_ms": 14.719,
+    "latency_ms": 6.499,
     "results": [
       {
         "rank": 1,
@@ -1156,7 +1156,7 @@
     "collection": "news_cosine_weak",
     "ef": 16,
     "overlap": 1.0,
-    "latency_ms": 10.387,
+    "latency_ms": 5.205,
     "results": [
       {
         "rank": 1,
@@ -1202,7 +1202,7 @@
     "collection": "news_cosine_weak",
     "ef": 64,
     "overlap": 1.0,
-    "latency_ms": 10.866,
+    "latency_ms": 5.398,
     "results": [
       {
         "rank": 1,
@@ -1248,7 +1248,7 @@
     "collection": "news_cosine_weak",
     "ef": 128,
     "overlap": 1.0,
-    "latency_ms": 9.42,
+    "latency_ms": 6.115,
     "results": [
       {
         "rank": 1,
@@ -1294,7 +1294,7 @@
     "collection": "news_cosine",
     "ef": null,
     "overlap": 1.0,
-    "latency_ms": 17.813,
+    "latency_ms": 6.637,
     "results": [
       {
         "rank": 1,
@@ -1340,7 +1340,7 @@
     "collection": "news_cosine",
     "ef": 16,
     "overlap": 1.0,
-    "latency_ms": 11.231,
+    "latency_ms": 5.185,
     "results": [
       {
         "rank": 1,
@@ -1386,7 +1386,7 @@
     "collection": "news_cosine",
     "ef": 64,
     "overlap": 1.0,
-    "latency_ms": 9.933,
+    "latency_ms": 5.496,
     "results": [
       {
         "rank": 1,
@@ -1432,7 +1432,7 @@
     "collection": "news_cosine",
     "ef": 128,
     "overlap": 1.0,
-    "latency_ms": 11.347,
+    "latency_ms": 6.22,
     "results": [
       {
         "rank": 1,
@@ -1478,7 +1478,7 @@
     "collection": "news_cosine_weak",
     "ef": 16,
     "overlap": 0.2,
-    "latency_ms": 10.557,
+    "latency_ms": 5.825,
     "results": [
       {
         "rank": 1,
@@ -1524,7 +1524,7 @@
     "collection": "news_cosine_weak",
     "ef": 64,
     "overlap": 0.2,
-    "latency_ms": 9.348,
+    "latency_ms": 5.823,
     "results": [
       {
         "rank": 1,
@@ -1570,7 +1570,7 @@
     "collection": "news_cosine_weak",
     "ef": 128,
     "overlap": 0.2,
-    "latency_ms": 9.306,
+    "latency_ms": 5.313,
     "results": [
       {
         "rank": 1,

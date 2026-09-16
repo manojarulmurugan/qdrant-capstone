@@ -1,133 +1,133 @@
 [
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "collection": "news_cosine",
     "metric": "Cosine",
-    "latency_ms": 10.209,
+    "latency_ms": 7.194,
     "results": [
       {
         "rank": 1,
-        "id": 5379,
-        "score": 0.48239,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
-      },
-      {
-        "rank": 2,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
-      },
-      {
-        "rank": 3,
-        "id": 5397,
-        "score": 0.43741,
-        "category": "comp.os.ms-windows.misc",
-        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
-      },
-      {
-        "rank": 4,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
-        "rank": 5,
         "id": 654,
-        "score": 0.41584,
+        "score": 0.56091,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
-      }
-    ]
-  },
-  {
-    "query_index": 0,
-    "query": "a question about a graphics card driver",
-    "collection": "news_euclid",
-    "metric": "Euclid",
-    "latency_ms": 13.385,
-    "results": [
-      {
-        "rank": 1,
-        "id": 5379,
-        "score": 6.20313,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
       },
       {
         "rank": 2,
-        "id": 4924,
-        "score": 6.38694,
+        "id": 3420,
+        "score": 0.48607,
         "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
-        "rank": 3,
-        "id": 5397,
-        "score": 6.39479,
-        "category": "comp.os.ms-windows.misc",
-        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
-      },
-      {
-        "rank": 4,
-        "id": 3399,
-        "score": 6.43065,
-        "category": "comp.graphics",
-        "snippet": "I'm getting ready to buy a multimedia workstation and would like a little advice. I need a graphics card that "
-      },
-      {
-        "rank": 5,
-        "id": 654,
-        "score": 6.44927,
-        "category": "comp.os.ms-windows.misc",
-        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
-      }
-    ]
-  },
-  {
-    "query_index": 0,
-    "query": "a question about a graphics card driver",
-    "collection": "news_dot",
-    "metric": "Dot",
-    "latency_ms": 12.056,
-    "results": [
-      {
-        "rank": 1,
-        "id": 5379,
-        "score": 8.89147,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
-      },
-      {
-        "rank": 2,
-        "id": 3399,
-        "score": 8.70336,
-        "category": "comp.graphics",
-        "snippet": "I'm getting ready to buy a multimedia workstation and would like a little advice. I need a graphics card that "
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
       },
       {
         "rank": 3,
         "id": 4774,
-        "score": 8.03629,
+        "score": 0.45772,
         "category": "comp.os.ms-windows.misc",
         "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
       },
       {
         "rank": 4,
-        "id": 2633,
-        "score": 7.75762,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "I'd like to add a second S3 based video card to my system. Does anyone know of a company that sells a card tha"
+        "id": 5397,
+        "score": 0.44598,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
       },
       {
         "rank": 5,
-        "id": 3380,
-        "score": 7.71798,
+        "id": 209,
+        "score": 0.44206,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
+      }
+    ]
+  },
+  {
+    "query_index": 0,
+    "query": "my video card driver keeps crashing windows",
+    "collection": "news_euclid",
+    "metric": "Euclid",
+    "latency_ms": 7.828,
+    "results": [
+      {
+        "rank": 1,
+        "id": 654,
+        "score": 6.48785,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+      },
+      {
+        "rank": 2,
+        "id": 3420,
+        "score": 6.52046,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
+      },
+      {
+        "rank": 3,
+        "id": 4774,
+        "score": 6.60484,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
+        "id": 5397,
+        "score": 6.74548,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
+      },
+      {
+        "rank": 5,
+        "id": 2452,
+        "score": 6.76794,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Hi there, I'm having a bizarre video problem within Windows 3.1. I have a 286 with a GVGA-16 video board. I've"
+      }
+    ]
+  },
+  {
+    "query_index": 0,
+    "query": "my video card driver keeps crashing windows",
+    "collection": "news_dot",
+    "metric": "Dot",
+    "latency_ms": 5.829,
+    "results": [
+      {
+        "rank": 1,
+        "id": 3420,
+        "score": 10.34248,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
+      },
+      {
+        "rank": 2,
+        "id": 4774,
+        "score": 10.09458,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 3,
+        "id": 3399,
+        "score": 8.61653,
+        "category": "comp.graphics",
+        "snippet": "I'm getting ready to buy a multimedia workstation and would like a little advice. I need a graphics card that "
+      },
+      {
+        "rank": 4,
+        "id": 654,
+        "score": 8.54934,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+      },
+      {
+        "rank": 5,
+        "id": 5060,
+        "score": 7.87213,
         "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "I have a Tseng labs video card that gives me problems when I do anything in super VGA mode. CHECKIT v3.0 repor"
+        "snippet": ": Build 59 causes 2 exceptions when I exit Windows. In fact, I have had : this happen on all builds after 44, "
       }
     ]
   },
@@ -136,7 +136,7 @@
     "query": "what does the Bible say about the resurrection",
     "collection": "news_cosine",
     "metric": "Cosine",
-    "latency_ms": 11.583,
+    "latency_ms": 5.48,
     "results": [
       {
         "rank": 1,
@@ -180,7 +180,7 @@
     "query": "what does the Bible say about the resurrection",
     "collection": "news_euclid",
     "metric": "Euclid",
-    "latency_ms": 8.6,
+    "latency_ms": 5.378,
     "results": [
       {
         "rank": 1,
@@ -224,7 +224,7 @@
     "query": "what does the Bible say about the resurrection",
     "collection": "news_dot",
     "metric": "Dot",
-    "latency_ms": 9.583,
+    "latency_ms": 5.664,
     "results": [
       {
         "rank": 1,
@@ -268,7 +268,7 @@
     "query": "for sale: used motorcycle in good condition",
     "collection": "news_cosine",
     "metric": "Cosine",
-    "latency_ms": 15.344,
+    "latency_ms": 6.585,
     "results": [
       {
         "rank": 1,
@@ -312,7 +312,7 @@
     "query": "for sale: used motorcycle in good condition",
     "collection": "news_euclid",
     "metric": "Euclid",
-    "latency_ms": 9.647,
+    "latency_ms": 6.024,
     "results": [
       {
         "rank": 1,
@@ -356,7 +356,7 @@
     "query": "for sale: used motorcycle in good condition",
     "collection": "news_dot",
     "metric": "Dot",
-    "latency_ms": 7.527,
+    "latency_ms": 6.018,
     "results": [
       {
         "rank": 1,
@@ -400,7 +400,7 @@
     "query": "government encryption policy and the clipper chip",
     "collection": "news_cosine",
     "metric": "Cosine",
-    "latency_ms": 9.209,
+    "latency_ms": 5.431,
     "results": [
       {
         "rank": 1,
@@ -444,7 +444,7 @@
     "query": "government encryption policy and the clipper chip",
     "collection": "news_euclid",
     "metric": "Euclid",
-    "latency_ms": 7.874,
+    "latency_ms": 5.415,
     "results": [
       {
         "rank": 1,
@@ -488,7 +488,7 @@
     "query": "government encryption policy and the clipper chip",
     "collection": "news_dot",
     "metric": "Dot",
-    "latency_ms": 10.643,
+    "latency_ms": 5.994,
     "results": [
       {
         "rank": 1,
@@ -532,7 +532,7 @@
     "query": "treatment options for chronic back pain",
     "collection": "news_cosine",
     "metric": "Cosine",
-    "latency_ms": 12.978,
+    "latency_ms": 7.02,
     "results": [
       {
         "rank": 1,
@@ -576,7 +576,7 @@
     "query": "treatment options for chronic back pain",
     "collection": "news_euclid",
     "metric": "Euclid",
-    "latency_ms": 16.109,
+    "latency_ms": 6.538,
     "results": [
       {
         "rank": 1,
@@ -620,7 +620,7 @@
     "query": "treatment options for chronic back pain",
     "collection": "news_dot",
     "metric": "Dot",
-    "latency_ms": 14.406,
+    "latency_ms": 5.934,
     "results": [
       {
         "rank": 1,

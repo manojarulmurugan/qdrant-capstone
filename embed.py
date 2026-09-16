@@ -15,7 +15,7 @@ QUERY_VECTORS = ARTIFACTS / "query_vectors.npy"
 
 # single source of truth for the query text (queries.md is just docs)
 TEST_QUERIES = [
-    "a question about a graphics card driver",
+    "my video card driver keeps crashing windows",
     "what does the Bible say about the resurrection",
     "for sale: used motorcycle in good condition",
     "government encryption policy and the clipper chip",

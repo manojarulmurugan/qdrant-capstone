@@ -1,93 +1,93 @@
 [
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "config": "ivf-nprobe1",
     "nprobe": 1,
     "vectors_scanned": 169,
     "overlap": 1.0,
-    "latency_ms": 0.214,
+    "latency_ms": 0.121,
     "results": [
       {
         "rank": 1,
-        "id": 5379,
-        "score": 0.48239,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+        "id": 654,
+        "score": 0.56091,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
       },
       {
         "rank": 2,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+        "id": 3420,
+        "score": 0.48607,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
       },
       {
         "rank": 3,
+        "id": 4774,
+        "score": 0.45772,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
         "id": 5397,
-        "score": 0.43741,
+        "score": 0.44598,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
       },
       {
-        "rank": 4,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
         "rank": 5,
-        "id": 654,
-        "score": 0.41584,
+        "id": 209,
+        "score": 0.44206,
         "category": "comp.os.ms-windows.misc",
-        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
       }
     ]
   },
   {
     "query_index": 0,
-    "query": "a question about a graphics card driver",
+    "query": "my video card driver keeps crashing windows",
     "config": "ivf-nprobe8",
     "nprobe": 8,
-    "vectors_scanned": 1126,
+    "vectors_scanned": 963,
     "overlap": 1.0,
-    "latency_ms": 0.486,
+    "latency_ms": 0.326,
     "results": [
       {
         "rank": 1,
-        "id": 5379,
-        "score": 0.48239,
-        "category": "misc.forsale",
-        "snippet": "I have the following Nth Engine graphics cards for sale w/drivers for AutoCAD R11. Display list proccessing is"
+        "id": 654,
+        "score": 0.56091,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
       },
       {
         "rank": 2,
-        "id": 2238,
-        "score": 0.43872,
-        "category": "comp.sys.ibm.pc.hardware",
-        "snippet": "HI, that might look like a dull request, but I have been following this newgroup for a couple of weeks and It "
+        "id": 3420,
+        "score": 0.48607,
+        "category": "comp.graphics",
+        "snippet": "Hi! I need a Windows 3.1 driver for the Matrox PG-1281 CV SVGA card. At the moment Windows runs only in the 64"
       },
       {
         "rank": 3,
+        "id": 4774,
+        "score": 0.45772,
+        "category": "comp.os.ms-windows.misc",
+        "snippet": "I have the same card, TVGA-8900c. When I checked, the latest driver for windows 3.1 is dated Aug. 92 in garbo."
+      },
+      {
+        "rank": 4,
         "id": 5397,
-        "score": 0.43741,
+        "score": 0.44598,
         "category": "comp.os.ms-windows.misc",
         "snippet": "Hi. I am having some interesting problems with my Boca graphics card, which is based on the Cirrus Logic chips"
       },
       {
-        "rank": 4,
-        "id": 4924,
-        "score": 0.43109,
-        "category": "comp.graphics",
-        "snippet": ": I have a question about SVGA cards. I have a Tseng 4000 SVGA with 1MB : memory and 3x 6-bit DACs as far as I"
-      },
-      {
         "rank": 5,
-        "id": 654,
-        "score": 0.41584,
+        "id": 209,
+        "score": 0.44206,
         "category": "comp.os.ms-windows.misc",
-        "snippet": "Please Help if you can. Whenever I try to run windows useing the 16 million color mode with the drivers supply"
+        "snippet": "HHHHEEEELLLLPPPP Meeeeeee! I installed a 256 color svga driver for my windows last week. This driver was downl"
       }
     ]
   },
@@ -98,7 +98,7 @@
     "nprobe": 1,
     "vectors_scanned": 143,
     "overlap": 0.6,
-    "latency_ms": 0.158,
+    "latency_ms": 0.085,
     "results": [
       {
         "rank": 1,
@@ -144,7 +144,7 @@
     "nprobe": 8,
     "vectors_scanned": 950,
     "overlap": 1.0,
-    "latency_ms": 0.396,
+    "latency_ms": 0.398,
     "results": [
       {
         "rank": 1,
@@ -190,7 +190,7 @@
     "nprobe": 1,
     "vectors_scanned": 117,
     "overlap": 0.8,
-    "latency_ms": 0.106,
+    "latency_ms": 0.078,
     "results": [
       {
         "rank": 1,
@@ -236,7 +236,7 @@
     "nprobe": 8,
     "vectors_scanned": 1197,
     "overlap": 1.0,
-    "latency_ms": 0.485,
+    "latency_ms": 0.479,
     "results": [
       {
         "rank": 1,
@@ -282,7 +282,7 @@
     "nprobe": 1,
     "vectors_scanned": 69,
     "overlap": 0.8,
-    "latency_ms": 0.115,
+    "latency_ms": 0.082,
     "results": [
       {
         "rank": 1,
@@ -328,7 +328,7 @@
     "nprobe": 8,
     "vectors_scanned": 981,
     "overlap": 1.0,
-    "latency_ms": 0.252,
+    "latency_ms": 0.408,
     "results": [
       {
         "rank": 1,
@@ -374,7 +374,7 @@
     "nprobe": 1,
     "vectors_scanned": 252,
     "overlap": 1.0,
-    "latency_ms": 0.135,
+    "latency_ms": 0.143,
     "results": [
       {
         "rank": 1,
@@ -420,7 +420,7 @@
     "nprobe": 8,
     "vectors_scanned": 1311,
     "overlap": 1.0,
-    "latency_ms": 0.509,
+    "latency_ms": 0.557,
     "results": [
       {
         "rank": 1,

@@ -27,7 +27,7 @@ Same vectors, same payload, same index. Only the metric differs. Top-5 overlap b
 
 | Query | cos vs dot | cos vs euclid | dot vs euclid | distinct top-1s |
 |---|---|---|---|---|
-| 0. graphics card driver | 1/5 | 4/5 | 2/5 | 1 |
+| 0. video card driver crashing windows | 3/5 | 4/5 | 3/5 | 2 |
 | 1. Bible and resurrection | 3/5 | 5/5 | 3/5 | 3 |
 | 2. used motorcycle for sale | 2/5 | 4/5 | 1/5 | 2 |
 | 3. clipper chip | **0/5** | 3/5 | 2/5 | 3 |
@@ -61,15 +61,15 @@ So on this query:
 
 | Config | q0 | q1 | q2 | q3 | q4 | Mean overlap | Mean latency |
 |---|---|---|---|---|---|---|---|
-| exact (`exact: true`) | 100% | 100% | 100% | 100% | 100% | 100% | 13.17 ms |
-| default, ef=16 | 100% | 100% | 80% | 100% | 100% | 96% | 10.58 ms |
-| default, ef=64 | 100% | 100% | 100% | 100% | 100% | 100% | 9.31 ms |
-| default, ef=128 | 100% | 100% | 100% | 100% | 100% | 100% | 10.81 ms |
-| weak, ef=16 | 80% | 80% | 80% | 100% | 20% | 72% | 9.24 ms |
-| weak, ef=64 | 80% | 80% | 100% | 100% | 20% | 76% | 9.04 ms |
-| weak, ef=128 | 100% | 80% | 100% | 100% | 20% | 80% | 8.75 ms |
+| exact (`exact: true`) | 100% | 100% | 100% | 100% | 100% | 100% | 6.35 ms |
+| default, ef=16 | 100% | 100% | 80% | 100% | 100% | 96% | 5.41 ms |
+| default, ef=64 | 100% | 100% | 100% | 100% | 100% | 100% | 5.86 ms |
+| default, ef=128 | 100% | 100% | 100% | 100% | 100% | 100% | 6.18 ms |
+| weak, ef=16 | 100% | 80% | 80% | 100% | 20% | 76% | 5.58 ms |
+| weak, ef=64 | 100% | 80% | 100% | 100% | 20% | 80% | 5.81 ms |
+| weak, ef=128 | 100% | 80% | 100% | 100% | 20% | 80% | 5.96 ms |
 
-The default build reaches exact agreement by `ef=64` and stays there. The weak build climbs from 72% to 80% across the same range and never closes the gap.
+The default build reaches exact agreement by `ef=64` and stays there. The weak build climbs from 76% to 80% across the same range and never closes the gap.
 
 Query 4 is the clearest single result in the project. Under the weak build it sits at 20% overlap at `ef=16`, at `ef=64` and at `ef=128`, completely flat. Search-time `ef` controls how many candidates the greedy walk keeps while traversing the graph. It cannot add edges that were never built. With `m=4` and `ef_construct=8`, the region of the graph holding those documents has no path into it from where the search starts, so widening the search changes nothing.
 
@@ -79,7 +79,7 @@ Query 4 is the clearest single result in the project. Under the weak build it si
 
 | nprobe | q0 | q1 | q2 | q3 | q4 | Mean overlap | Vectors scanned | Mean latency |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 100% | 60% | 80% | 80% | 100% | 84% | 69 to 252 | 0.15 ms |
+| 1 | 100% | 60% | 80% | 80% | 100% | 84% | 69 to 252 | 0.10 ms |
 | 8 | 100% | 100% | 100% | 100% | 100% | 100% | 950 to 1,311 | 0.43 ms |
 
 Vectors are L2-normalised before k-means. k-means minimises squared Euclidean distance while the search scores by cosine, and on unit vectors the two produce the same ordering, so normalising first keeps the partitioning consistent with the scoring. This is spherical k-means. Centroids are renormalised after fitting because the mean of a set of unit vectors is not itself unit length.
@@ -88,17 +88,17 @@ Vectors are L2-normalised before k-means. k-means minimises squared Euclidean di
 
 | Method | Mean overlap vs exact | Mean latency | Work done per query |
 |---|---|---|---|
-| exact brute force | 100% | 13.17 ms | all 6,000 vectors |
-| HNSW default, ef=16 | 96% | 10.58 ms | graph walk, 16 candidates |
-| HNSW default, ef=64 | 100% | 9.31 ms | graph walk, 64 candidates |
-| HNSW default, ef=128 | 100% | 10.81 ms | graph walk, 128 candidates |
-| HNSW weak, ef=16 | 72% | 9.24 ms | graph walk, 16 candidates |
-| HNSW weak, ef=64 | 76% | 9.04 ms | graph walk, 64 candidates |
-| HNSW weak, ef=128 | 80% | 8.75 ms | graph walk, 128 candidates |
-| IVF, nprobe=1 | 84% | 0.15 ms | about 150 vectors |
+| exact brute force | 100% | 6.35 ms | all 6,000 vectors |
+| HNSW default, ef=16 | 96% | 5.41 ms | graph walk, 16 candidates |
+| HNSW default, ef=64 | 100% | 5.86 ms | graph walk, 64 candidates |
+| HNSW default, ef=128 | 100% | 6.18 ms | graph walk, 128 candidates |
+| HNSW weak, ef=16 | 76% | 5.58 ms | graph walk, 16 candidates |
+| HNSW weak, ef=64 | 80% | 5.81 ms | graph walk, 64 candidates |
+| HNSW weak, ef=128 | 80% | 5.96 ms | graph walk, 128 candidates |
+| IVF, nprobe=1 | 84% | 0.10 ms | about 150 vectors |
 | IVF, nprobe=8 | 100% | 0.43 ms | about 1,100 vectors |
 
-**Latency here is not a fair comparison and should not be read as one.** Every Qdrant number includes an HTTP round trip to localhost, which at this dataset size costs more than the search itself. That is why exact search over 6,000 vectors "costs" 13 ms and why the HNSW rows barely separate from each other. The IVF numbers are in-process NumPy with no serialisation at all. The overlap column is directly comparable; the latency column is only comparable within a row group.
+**Latency here is not a fair comparison and should not be read as one.** Every Qdrant number includes an HTTP round trip to localhost, which at this dataset size costs more than the search itself. That is why exact search over 6,000 vectors "costs" 6.4 ms and why the HNSW rows barely separate from each other. The IVF numbers are in-process NumPy with no serialisation at all. The overlap column is directly comparable; the latency column is only comparable within a row group.
 
 ### Which method closed the gap, and why
 
@@ -106,7 +106,7 @@ Both did, and both for the same reason, but only one of them could.
 
 IVF went from 84% to 100% as `nprobe` moved from 1 to 8, scanning roughly 150 vectors instead of 1,100. At `nprobe=1` only the single nearest cluster is searched and everything else is invisible no matter how similar it really is. Query 1 shows this at 60%: two of the true top-5 sit in neighbouring clusters, and since documents near a cluster boundary can be closer to the query than documents at the centre of the chosen cluster, they are lost. Raising `nprobe` widens the shortlist, boundary cases come back, and at `nprobe=8` nothing in the true top-5 is missed. Push `nprobe` to 48 and IVF becomes brute force.
 
-The default HNSW collection behaved the same way, 96% at `ef=16` and 100% from `ef=64`. The weak collection did not. It improved only from 72% to 80% and plateaued, because `ef` and `nprobe` are search-time dials while `m` and `ef_construct` are build-time ones. `nprobe` and `ef` decide how much of an existing structure to explore. `m` decides what structure exists. Spending more search effort on a graph whose edges were never built returns almost nothing, which is the whole reason the weak collection stays stuck.
+The default HNSW collection behaved the same way, 96% at `ef=16` and 100% from `ef=64`. The weak collection did not. It improved only from 76% to 80% and plateaued, because `ef` and `nprobe` are search-time dials while `m` and `ef_construct` are build-time ones. `nprobe` and `ef` decide how much of an existing structure to explore. `m` decides what structure exists. Spending more search effort on a graph whose edges were never built returns almost nothing, which is the whole reason the weak collection stays stuck.
 
 That is the speed and accuracy tradeoff in its usual form: every method starts cheap and approximate, and every method converges on exact search as you let it examine more candidates, right up to the point where it is examining everything and has become brute force. What the weak collection adds is that the tradeoff only applies within the quality of index you actually built.
 
@@ -114,7 +114,7 @@ That is the speed and accuracy tradeoff in its usual form: every method starts c
 
 Query 3 makes the point. Cosine and dot returned top-5 lists with zero documents in common, from identical vectors, identical payload and identical HNSW configuration. Nothing about the index changed, only the metric.
 
-The mirror image is in Part 3. `news_cosine` and `news_cosine_weak` hold the same vectors under the same cosine metric and disagree on 28% of results at `ef=16`, because only the index changed.
+The mirror image is in Part 3. `news_cosine` and `news_cosine_weak` hold the same vectors under the same cosine metric and disagree on 24% of results at `ef=16`, because only the index changed.
 
 The metric decides what "nearest" means. The index decides how hard you look for it. A well-tuned HNSW graph over the wrong metric will return the wrong documents quickly, and no amount of `ef` will help, because it is faithfully approximating an answer to the wrong question.
 
